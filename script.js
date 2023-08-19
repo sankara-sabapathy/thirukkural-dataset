@@ -1,5 +1,5 @@
 import kural from './allKural.json' assert {type: 'json'};
-const random = Math.floor(Math.random() * (1331 - 0 + 1) + 0)
+const random = Math.floor(Math.random() * (1329 - 0 + 1) + 0)
 document.getElementById("firstLine").innerHTML = random + 1 + '. ' + kural.allKural[random].line1
 document.getElementById("secondLine").innerHTML = kural.allKural[random].line2
 document.getElementById("pal-iyal").innerHTML = kural.allKural[random].pal + ' - ' + kural.allKural[random].iyal
